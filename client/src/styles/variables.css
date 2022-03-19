@@ -1,0 +1,58 @@
+:root {
+   --font-family--default: "Roboto", sans-serif;
+   --font-family--header: "Abel", sans-serif;
+   --font-family--header-2: "Bebas Neue", sans-serif;
+   --font-size--default: 1.4rem;
+   --font-size--header--small: 1.8rem;
+   --font-weight--default: 300;
+
+   --cultured: #f8f9faff;
+   --cultured-2: #e9ecefff;
+   --gainsboro: #dee2e6ff;
+   --light-gray: #ced4daff;
+   --cadet-blue-crayola: #adb5bdff;
+   --slate-gray: #6c757dff;
+   --davys-grey: #495057ff;
+   --gunmetal: #343a40ff;
+   --charleston-green: #212529ff;
+
+   --up-maroon: #800016ff;
+   --ruby-red: #a0001cff;
+   --firebrick: #c00021ff;
+   --red-pigment: #ff002bff;
+   --steel-blue: #407ba7ff;
+   --usafa-blue: #004e89ff;
+   --royal-blue-dark: #002962ff;
+   --oxford-blue: #00043aff;
+
+   --heat-wave: #ff7b00ff;
+   --dark-orange: #ff8800ff;
+   --yellow-orange-color-wheel: #ff9500ff;
+   --orange-web: #ffa200ff;
+   --chrome-yellow: #ffaa00ff;
+   --selective-yellow: #ffb700ff;
+   --mikado-yellow: #ffc300ff;
+   --cyber-yellow: #ffd000ff;
+   --sizzling-sunrise: #ffdd00ff;
+   --middle-yellow: #ffea00ff;
+
+   --forest-green-traditional: #004b23ff;
+   --dark-green-x-11: #006400ff;
+   --pakistan-green: #007200ff;
+   --ao-english: #008000ff;
+   --yellow-green-color-wheel: #38b000ff;
+   --sheen-green: #70e000ff;
+   --green-lizard: #9ef01aff;
+   --electric-lime: #ccff33ff;
+
+   --thistle: #dec9e9ff;
+   --thistle-2: #dac3e8ff;
+   --pink-lavender: #d2b7e5ff;
+   --wisteria: #c19ee0ff;
+   --lavender-floral: #b185dbff;
+   --amethyst: #a06cd5ff;
+   --amethyst-2: #9163cbff;
+   --blue-violet-crayola: #815ac0ff;
+   --royal-purple: #7251b5ff;
+   --plump-purple: #6247aaff;
+}

@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+html {
+   font-size: 62.5%;
+   height: auto;
+   width: auto;
+}
+
+body {
+   box-sizing: border-box;
+   margin: 0;
+   width: auto;
+   height: fit-content;
+   background: var(--cultured-2);
+}
+
+.page {
+   position: relative;
+   /* height: 94vh; */
+   min-height: 94vh;
+   width: min(120rem, 100%);
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.page__top {
+   position: sticky;
+   top: 6vh;
+   height: 6vh;
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 4;
+   background: var(--cultured-2);
+}
+
+.page__bottom {
+   position: relative;
+   height: 100%;
+   min-height: 88vh;
+   width: 100%;
+   padding: 2rem;
+   display: grid;
+   grid-template-columns: 20rem 1fr 20rem;
+   gap: 2rem;
+}
+
+.page__bottom--student {
+   position: relative;
+   height: 100%;
+   min-height: 88vh;
+   width: 100%;
+   padding: 2rem;
+   display: grid;
+   grid-template-columns: 20rem 1fr;
+   gap: 2rem;
+}
+
+.hide-when-desktop {
+   display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+   .page__bottom {
+      grid-template-columns: 20rem 1fr;
+   }
+
+   .hide-when-tablet {
+      display: none;
+   }
+
+   .hide-when-desktop {
+      display: flex;
+   }
+}
+
+@media only screen and (max-width: 710px) {
+   .page__bottom {
+      display: flex;
+   }
+
+   .hide-when-mobile {
+      display: none;
+   }
+
+   .page__bottom > div {
+      width: 100%;
+   }
+}

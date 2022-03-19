@@ -1,0 +1,21 @@
+.defaultInput {
+   width: min(25rem, 90%);
+   display: flex;
+}
+
+.label {
+   font-size: 1.5rem;
+   font-weight: 300;
+   padding-left: 0.2rem;
+}
+
+.input {
+   width: 100%;
+   border: none;
+   font-family: var(--font-family--default);
+   font-size: 1.5rem;
+   padding: 0.5rem 1rem;
+   border-radius: 0.5rem;
+   background: var(--light-gray);
+   color: var(--charleston-green);
+}

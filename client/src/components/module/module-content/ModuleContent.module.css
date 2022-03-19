@@ -1,0 +1,19 @@
+.moduleContent {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   font-weight: 300;
+   margin: 5rem 0;
+   padding-left: 2rem;
+}
+
+.courseDescriptionControls {
+   margin-top: 1rem;
+   display: flex;
+   justify-content: flex-end;
+   gap: 3rem;
+}
+
+.error {
+   color: red;
+}

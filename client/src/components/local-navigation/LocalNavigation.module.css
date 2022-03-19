@@ -1,0 +1,47 @@
+.localNavigation {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   color: var(--davys-grey);
+   font-size: var(--font-size--default);
+   font-weight: 300;
+   gap: 3rem;
+   border-bottom: 1px solid var(--light-gray);
+}
+
+.button {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   cursor: pointer;
+   font-weight: 500;
+   height: 4rem;
+   display: flex;
+   align-items: center;
+}
+
+.button > span {
+   padding-top: 0.2rem;
+}
+
+.button:hover {
+   text-decoration: underline;
+}
+
+#flip {
+   transform: rotate(180deg);
+}
+
+.icon {
+   width: 1.5rem;
+}
+
+.showIfMobile {
+   display: none;
+}
+
+@media only screen and (max-width: 710px) {
+   .showIfMobile {
+      display: flex;
+   }
+}

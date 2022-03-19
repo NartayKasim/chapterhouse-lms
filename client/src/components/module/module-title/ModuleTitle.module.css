@@ -1,0 +1,59 @@
+.courseTitle {
+   display: flex;
+   flex-direction: column;
+}
+
+.title {
+   color: var(--charleston-green);
+   font-family: var(--font-family--header-2);
+   background: linear-gradient(
+      to right,
+      rgba(255, 123, 0, 0.37),
+      rgba(255, 89, 0, 0.37)
+   );
+   padding: 2rem;
+   font-size: 3rem;
+   line-height: 2.5rem;
+}
+
+.inputWrapper {
+   padding: 1.15rem;
+   width: 100%;
+   background: linear-gradient(
+      to right,
+      rgba(255, 123, 0, 0.37),
+      rgba(255, 89, 0, 0.37)
+   );
+}
+
+.input {
+   width: 100%;
+   color: var(--charleston-green);
+   font-family: var(--font-family--header-2);
+   font-size: 3rem;
+   line-height: 2.5rem;
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid var(--gunmetal);
+}
+
+.input:focus {
+   outline: none;
+}
+
+.titleControls {
+   display: flex;
+   justify-content: flex-end;
+   gap: 3rem;
+}
+
+.error {
+   color: red;
+}
+
+@media only screen and (max-width: 600px) {
+   .title {
+      display: flex;
+      justify-content: center;
+   }
+}

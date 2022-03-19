@@ -1,0 +1,1 @@
+UPDATE courses SET course_description = $2 WHERE course_id = $1 RETURNING *;

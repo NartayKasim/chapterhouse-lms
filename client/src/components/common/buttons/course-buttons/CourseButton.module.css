@@ -1,0 +1,24 @@
+.courseButton {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: none;
+   border: none;
+   font-family: var(--font-family--default);
+   font-size: 1.4rem;
+   font-weight: 400;
+   cursor: pointer;
+}
+
+.courseButton:hover {
+   text-decoration: underline;
+}
+
+.courseButton:focus {
+   text-decoration: underline;
+   outline: none;
+}
+
+.courseButton:active {
+   transform: translateY(2px);
+}

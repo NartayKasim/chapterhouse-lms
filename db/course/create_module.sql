@@ -1,0 +1,1 @@
+INSERT INTO modules (course_id, module_title, module_description, module_order) VALUES ($1, $2, '', $3) RETURNING *;

@@ -1,0 +1,63 @@
+.navigation {
+   width: min(120rem, 100%);
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+   font-family: var(--font-family--header);
+   font-size: 2rem;
+}
+
+.navLink {
+   width: 38rem;
+   padding: 1rem 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0.5rem;
+   background: url("../../../assets/gradient-3.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.navLink:hover {
+   transform: translateY(-2px);
+   transition: all 0.2s;
+}
+
+.navLink:active {
+   transform: translateY(2px);
+   transition: all 0.1s;
+}
+
+.icon {
+   display: none;
+   width: 1.5rem;
+   height: 1.5rem;
+   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+   .navigation {
+      padding: 0 1rem;
+   }
+}
+
+@media only screen and (max-width: 660px) {
+   .navigation {
+      flex-direction: column;
+      padding: 0;
+   }
+
+   .navLink {
+      background: none;
+      justify-content: flex-start;
+      width: 100%;
+      padding: 1rem 4rem;
+      border-radius: 0;
+   }
+
+   .icon {
+      display: flex;
+   }
+}

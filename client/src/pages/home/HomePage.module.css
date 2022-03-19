@@ -1,0 +1,75 @@
+.homePage {
+   position: relative;
+   width: auto;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   --light-blue: #a6dae834;
+   --yellow: #fdc10f2d;
+   --blue: #14b1bf31;
+}
+
+.heroWrapper {
+   width: 100%;
+   height: auto;
+   background: url("../../assets/gradient-3.png");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navigation {
+   width: min(120rem, 100%);
+   margin: 5rem 0;
+   padding: 1rem 0;
+   display: flex;
+   border-top: 1px solid var(--light-gray);
+   border-bottom: 1px solid var(--light-gray);
+}
+
+.contentSections {
+   width: min(120rem, 100%);
+   display: flex;
+   justify-content: space-between;
+}
+
+.sectionWrapper {
+   display: flex;
+   justify-content: center;
+   width: min(38rem, 100%);
+   border-radius: 1rem;
+   margin-bottom: 5rem;
+}
+
+#yellow {
+   background: var(--yellow);
+}
+
+#blue {
+   background: var(--blue);
+}
+
+#lightBlue {
+   background: var(--light-blue);
+}
+
+.homeFooterWrapper {
+   width: min(120rem, 100%);
+}
+
+@media only screen and (max-width: 1200px) {
+   .contentSections {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5rem;
+   }
+
+   .sectionWrapper {
+      width: 100%;
+      padding: 2rem;
+      margin-bottom: 0;
+   }
+}

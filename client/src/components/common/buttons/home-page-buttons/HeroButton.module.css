@@ -1,0 +1,27 @@
+.heroButton {
+   position: relative;
+   padding: 0.5rem 3rem;
+   padding-bottom: 0.6rem;
+   border-radius: 3.5rem;
+   border: none;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: var(--cultured-2);
+
+   font-family: var(--font-family--header);
+   font-size: 1.7rem;
+}
+
+.heroButton:hover,
+.heroButton:focus {
+   background: var(--sheen-green);
+   outline: 2px solid var(--cultured-2);
+   transition: all 0.25s;
+}
+
+.heroButton:active {
+   scale: 0.95;
+   transition: scale 0.25s;
+}

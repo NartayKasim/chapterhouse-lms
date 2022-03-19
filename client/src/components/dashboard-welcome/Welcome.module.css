@@ -1,0 +1,94 @@
+.welcomeWrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../assets/gradient-2.png");
+   background-position: center;
+   background-size: cover;
+   z-index: 4;
+}
+
+.welcome {
+   width: min(120rem, 100%);
+   height: auto;
+   padding: 2rem;
+}
+
+.splash {
+   position: relative;
+}
+
+.row1 {
+   overflow: hidden;
+   position: relative;
+   font-family: var(--font-family--header-2);
+   font-size: 8rem;
+   line-height: 8rem;
+}
+
+.row2 {
+   overflow: hidden;
+   position: relative;
+   font-family: var(--font-family--header-2);
+   font-size: 8rem;
+   line-height: 8rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.row2 > div {
+   color: var(--green-lizard);
+   font-size: 12rem;
+   line-height: 11rem;
+}
+
+.newCourse {
+   display: flex;
+   gap: 1rem;
+   width: 100%;
+   font-family: var(--font-family--header);
+}
+
+.courseInput {
+   width: min(40rem, 90%);
+   height: 4.5rem;
+   border-radius: 0.5rem;
+   background: var(--green-lizard);
+   border: none;
+   font-family: var(--font-family--header);
+   font-size: 2rem;
+   padding: 0 1rem;
+}
+
+.courseInput:focus {
+   outline: none;
+}
+
+.createButton {
+   font-family: var(--font-family--header);
+   background: var(--green-lizard);
+
+   font-size: 1.7rem;
+   border: none;
+   border-radius: 0.5rem;
+   width: 20rem;
+   cursor: pointer;
+}
+
+.createButton:hover {
+   scale: 1.05;
+   transition: 0.2s all;
+}
+
+.createButton:focus {
+   outline: 2px solid var(--font-color--header);
+}
+
+.createButton:active {
+   scale: 0.9;
+}

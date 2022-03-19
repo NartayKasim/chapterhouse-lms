@@ -1,0 +1,1 @@
+INSERT INTO courses (user_id, course_title, course_description) VALUES ($1, $2, $3) RETURNING *;

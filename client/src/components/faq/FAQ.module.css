@@ -1,0 +1,26 @@
+.faq {
+   width: 100%;
+   min-height: 20rem;
+   display: flex;
+   flex-direction: column;
+   font-size: var(--font-size--default);
+   font-weight: var(--font-weight--default);
+   line-height: 1.8rem;
+   gap: 0.3rem;
+   padding: 0 1rem 1rem 0;
+   font-weight: 500;
+}
+
+.section {
+   width: 100%;
+   background: var(--cultured);
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+   font-weight: 300;
+   overflow: hidden;
+}
+
+.content {
+   font-weight: 300;
+   padding: 1rem;
+}

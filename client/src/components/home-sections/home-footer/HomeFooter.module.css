@@ -1,0 +1,27 @@
+.homeFooter {
+   display: flex;
+   justify-content: flex-end;
+   width: 100%;
+   background: url("../../../assets/gradient-3.png");
+   border-radius: 0.5rem;
+   padding: 2.5rem;
+   gap: 2.5rem;
+}
+
+.button {
+   font-family: var(--font-family--header-2);
+   color: var(--cultured);
+   font-size: 3rem;
+   line-height: 3rem;
+   padding: 1rem 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 3.5rem;
+   cursor: pointer;
+}
+
+.button:hover {
+   transform: translateY(-2px);
+   transition: 0.2s all;
+}

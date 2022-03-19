@@ -1,0 +1,1 @@
+UPDATE modules SET module_content = $2 WHERE module_id = $1 RETURNING *;

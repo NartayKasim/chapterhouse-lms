@@ -1,0 +1,40 @@
+.moduleCard {
+   cursor: pointer;
+}
+
+.moduleCardInner {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background: var(--gainsboro);
+   border-left: 4px solid rgba(255, 89, 0, 0.37);
+}
+
+.moduleCardInner:hover {
+   background: var(--cultured);
+   box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.233);
+   transition: 0.2s all;
+}
+
+.moduleCard:active {
+   box-shadow: none;
+   transition: 0.2s all;
+}
+
+.header {
+   padding-left: 1.9rem;
+   font-weight: 500;
+   font-size: 2rem;
+}
+
+.body {
+   display: flex;
+   padding-left: 1.9rem;
+}
+
+.moduleControls {
+   display: flex;
+   width: 100%;
+   justify-content: flex-end;
+   gap: 3rem;
+}

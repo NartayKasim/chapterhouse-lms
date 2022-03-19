@@ -1,0 +1,8 @@
+.moveButton {
+   font-weight: 300;
+   font-size: 1.4rem;
+}
+
+.moveButton:hover {
+   text-decoration: underline;
+}
