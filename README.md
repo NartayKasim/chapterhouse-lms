@@ -9,6 +9,7 @@
 ## Additional Relevant Technologies:
 - Redux Toolkit (state management)
 - Framer Motion (animation)
+- Typescript
 
 ## Premise:
 To create a flexible and easy-to-use learning material creation and hosting platform for instructors.
