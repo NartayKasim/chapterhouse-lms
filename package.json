@@ -1,22 +1,22 @@
 {
-  "name": "chapterhouse-lms-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cookie-session": "^2.0.0",
-    "dotenv": "^14.3.2",
-    "express": "^4.17.2",
-    "massive": "^6.10.2"
-  },
-  "prettier": {
-    "tabWidth": 3
-  }
+   "name": "chapterhouse-lms-server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cookie-session": "^2.0.0",
+      "dotenv": "^14.3.2",
+      "express": "^4.17.2",
+      "massive": "^6.10.2"
+   },
+   "prettier": {
+      "tabWidth": 3
+   }
 }

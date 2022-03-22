@@ -34,16 +34,16 @@ app.use(
    })
 );
 
-// if (process.env.NODE_ENV === "production") {
-//    app.use(express.static("client/build"));
-//    app.get("*", (req, res) => {
-//       res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-//    });
-// }
+if (process.env.NODE_ENV === "production") {
+   app.use(express.static("client/build"));
+   app.get("*", (req, res) => {
+      res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+   });
+}
 
-// app.use((req, res, next) => {
-//    res.sendFile(path.resolve(__dirname, "public", "index.html"));
-// });
+app.use((req, res, next) => {
+   res.sendFile(path.resolve(__dirname, "public", "index.html"));
+});
 
 app.post("/api/user/register", userController.register);
 app.post("/api/user/login", userController.login);
