@@ -41,9 +41,9 @@ if (process.env.NODE_ENV === "production") {
    });
 }
 
-app.use((req, res, next) => {
-   res.sendFile(path.resolve(__dirname, "public", "index.html"));
-});
+// app.use((req, res, next) => {
+//    res.sendFile(path.resolve(__dirname, "client", "public", "index.html"));
+// });
 
 app.post("/api/user/register", userController.register);
 app.post("/api/user/login", userController.login);

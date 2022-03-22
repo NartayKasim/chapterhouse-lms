@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abe563e2.css",
+    "main.js": "/static/js/main.5469c904.js",
+    "static/media/gradient-3.png": "/static/media/gradient-3.b5d2b8eaf29fcc966ceb.png",
+    "static/media/gradient-2.png": "/static/media/gradient-2.e1f1a5cf9ffd7cf107a0.png",
+    "static/media/learn.png": "/static/media/learn.3a959bb3e9af9044c4ca.png",
+    "static/media/teach.png": "/static/media/teach.42a886137b9f21e479f0.png",
+    "static/media/train.png": "/static/media/train.903420014d3c6a1a4c2e.png",
+    "static/media/logoIcon.svg": "/static/media/logoIcon.36491730e6450a103e2eb451452e58b6.svg",
+    "index.html": "/index.html",
+    "main.abe563e2.css.map": "/static/css/main.abe563e2.css.map",
+    "main.5469c904.js.map": "/static/js/main.5469c904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abe563e2.css",
+    "static/js/main.5469c904.js"
+  ]
+}
